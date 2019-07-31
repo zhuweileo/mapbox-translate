@@ -7,7 +7,7 @@
                 "children": [
                     {
                         "type": "text",
-                        "value": "A data source containing an image.\n(See the ",
+                        "value": "包含图像的数据源。.\n（点击 ",
                         "position": {
                             "start": {
                                 "line": 1,
@@ -31,7 +31,7 @@
                         "children": [
                             {
                                 "type": "text",
-                                "value": "Style Specification",
+                                "value": "样式规范Style Specification",
                                 "position": {
                                     "start": {
                                         "line": 2,
@@ -63,7 +63,7 @@
                     },
                     {
                         "type": "text",
-                        "value": " for detailed documentation of options.)",
+                        "value": "查看文档详情。）",
                         "position": {
                             "start": {
                                 "line": 2,
@@ -112,7 +112,7 @@
     "tags": [
         {
             "title": "example",
-            "description": "// add to map\nmap.addSource('some id', {\n   type: 'image',\n   url: 'https://www.mapbox.com/images/foo.png',\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update coordinates\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// update url and coordinates simultaneously\nmySource.updateImage({\n   url: 'https://www.mapbox.com/images/bar.png',\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // remove",
+            "description": "// 添加至地图\nmap.addSource('some id', {\n   type: 'image',\n   url: 'https://www.mapbox.com/images/foo.png',\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// 更新坐标点\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// 同时更新图片地址和坐标点\nmySource.updateImage({\n   url: 'https://www.mapbox.com/images/bar.png',\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // 移除",
             "lineNumber": 4
         },
         {
@@ -156,7 +156,7 @@
     ],
     "examples": [
         {
-            "description": "// add to map\nmap.addSource('some id', {\n   type: 'image',\n   url: 'https://www.mapbox.com/images/foo.png',\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// update coordinates\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// update url and coordinates simultaneously\nmySource.updateImage({\n   url: 'https://www.mapbox.com/images/bar.png',\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // remove"
+            "description": "// 添加至地图\nmap.addSource('some id', {\n   type: 'image',\n   url: 'https://www.mapbox.com/images/foo.png',\n   coordinates: [\n       [-76.54, 39.18],\n       [-76.52, 39.18],\n       [-76.52, 39.17],\n       [-76.54, 39.17]\n   ]\n});\n\n// 更新坐标点\nvar mySource = map.getSource('some id');\nmySource.setCoordinates([\n    [-76.54335737228394, 39.18579907229748],\n    [-76.52803659439087, 39.1838364847587],\n    [-76.5295386314392, 39.17683392507606],\n    [-76.54520273208618, 39.17876344106642]\n]);\n\n// 同时更新图片地址和坐标点\nmySource.updateImage({\n   url: 'https://www.mapbox.com/images/bar.png',\n   coordinates: [\n       [-76.54335737228394, 39.18579907229748],\n       [-76.52803659439087, 39.1838364847587],\n       [-76.5295386314392, 39.17683392507606],\n       [-76.54520273208618, 39.17876344106642]\n   ]\n})\n\nmap.removeSource('some id');  // 移除"
         }
     ],
     "params": [
@@ -226,7 +226,7 @@
                             "children": [
                                 {
                                     "type": "text",
-                                    "value": "Add an image",
+                                    "value": "添加一个图像",
                                     "position": {
                                         "start": {
                                             "line": 1,
@@ -354,7 +354,7 @@
                             "children": [
                                 {
                                     "type": "text",
-                                    "value": "Updates the image URL and, optionally, the coordinates. To avoid having the image flash after changing,\nset the ",
+                                    "value": "更新图片地址，坐标点更新可选。 为了避免更换后图片闪烁,\n请将raster图层的",
                                     "position": {
                                         "start": {
                                             "line": 1,
@@ -390,7 +390,7 @@
                                 },
                                 {
                                     "type": "text",
-                                    "value": " paint property on the raster layer to 0.",
+                                    "value": "(paint property) 属性设置为 0。",
                                     "position": {
                                         "start": {
                                             "line": 2,
@@ -449,7 +449,7 @@
                     },
                     {
                         "title": "param",
-                        "description": "Required image URL.",
+                        "description": "必须的图片地址。",
                         "lineNumber": 5,
                         "type": {
                             "type": "OptionalType",
