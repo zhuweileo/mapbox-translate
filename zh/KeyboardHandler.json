@@ -41,7 +41,7 @@
                     },
                     {
                         "type": "text",
-                        "value": " allows the user to zoom, rotate, and pan the map using\nthe following keyboard shortcuts:",
+                        "value": " 允许用户使用下列键盘快捷键对地图进行缩放、旋转以及平移：",
                         "position": {
                             "start": {
                                 "line": 1,
@@ -142,7 +142,7 @@
                                     },
                                     {
                                         "type": "text",
-                                        "value": ": Increase the zoom level by 1.",
+                                        "value": "：zoom等级加1。",
                                         "position": {
                                             "start": {
                                                 "line": 4,
@@ -248,7 +248,7 @@
                                     },
                                     {
                                         "type": "text",
-                                        "value": ": Increase the zoom level by 2.",
+                                        "value": "：zoom等级加2。",
                                         "position": {
                                             "start": {
                                                 "line": 5,
@@ -320,7 +320,7 @@
                                     },
                                     {
                                         "type": "text",
-                                        "value": ": Decrease the zoom level by 1.",
+                                        "value": "zoom等级减1。",
                                         "position": {
                                             "start": {
                                                 "line": 6,
@@ -392,7 +392,7 @@
                                     },
                                     {
                                         "type": "text",
-                                        "value": ": Decrease the zoom level by 2.",
+                                        "value": "：zoom等级减2。",
                                         "position": {
                                             "start": {
                                                 "line": 7,
@@ -447,7 +447,7 @@
                                 "children": [
                                     {
                                         "type": "text",
-                                        "value": "Arrow keys: Pan by 100 pixels.",
+                                        "value": "方向键：平移100像素。",
                                         "position": {
                                             "start": {
                                                 "line": 8,
