@@ -462,7 +462,7 @@
                     },
                     {
                         "title": "param",
-                        "description": "Four geographical coordinates,\n  represented as arrays of longitude and latitude numbers, which define the corners of the image.\n  The coordinates start at the top left corner of the image and proceed in clockwise order.\n  They do not have to represent a rectangle.",
+                        "description": "4个地理坐标,\n  表现为经纬度数组的形式，定义了图片的四个角。\n 坐标从图片的左上角起，呈顺时针方向。\n  坐标集合不一定非要为一个矩形。",
                         "lineNumber": 6,
                         "type": {
                             "type": "OptionalType",
@@ -552,7 +552,7 @@
                                             "children": [
                                                 {
                                                     "type": "text",
-                                                    "value": "Required image URL.",
+                                                    "value": "必须的图片地址。",
                                                     "position": {
                                                         "start": {
                                                             "line": 1,
@@ -616,7 +616,7 @@
                                             "children": [
                                                 {
                                                     "type": "text",
-                                                    "value": "Four geographical coordinates,\n  represented as arrays of longitude and latitude numbers, which define the corners of the image.\n  The coordinates start at the top left corner of the image and proceed in clockwise order.\n  They do not have to represent a rectangle.",
+                                                    "value": "4个地理坐标,\n  表现为经纬度数组的形式，定义了图片的四个角。\n 坐标从图片的左上角起，呈顺时针方向。\n  坐标集合不一定非要为一个矩形。",
                                                     "position": {
                                                         "start": {
                                                             "line": 1,
@@ -795,7 +795,7 @@
                             "children": [
                                 {
                                     "type": "text",
-                                    "value": "Sets the image's coordinates and re-renders the map.",
+                                    "value": "设置图像的经纬度，并且引起地图重绘。",
                                     "position": {
                                         "start": {
                                             "line": 1,
@@ -842,7 +842,7 @@
                 "tags": [
                     {
                         "title": "param",
-                        "description": "Four geographical coordinates,\n  represented as arrays of longitude and latitude numbers, which define the corners of the image.\n  The coordinates start at the top left corner of the image and proceed in clockwise order.\n  They do not have to represent a rectangle.",
+                        "description": "4个地理坐标,\n  表现为经纬度数组的形式，定义了图片的四个角。\n 坐标从图片的左上角起，呈顺时针方向。\n  坐标集合不一定非要为一个矩形。",
                         "lineNumber": 3,
                         "type": {
                             "type": "TypeApplication",
@@ -920,7 +920,7 @@
                                     "children": [
                                         {
                                             "type": "text",
-                                            "value": "Four geographical coordinates,\n  represented as arrays of longitude and latitude numbers, which define the corners of the image.\n  The coordinates start at the top left corner of the image and proceed in clockwise order.\n  They do not have to represent a rectangle.",
+                                            "value": "4个地理坐标,\n  表现为经纬度数组的形式，定义了图片的四个角。\n 坐标从图片的左上角起，呈顺时针方向。\n  坐标集合不一定非要为一个矩形。",
                                             "position": {
                                                 "start": {
                                                     "line": 1,
